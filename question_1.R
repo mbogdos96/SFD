@@ -34,6 +34,8 @@ sample_plot <- ggplot(data = sample_df) +
                 linewidth = 1) +
   geom_beeswarm(aes(x = sample, y = value),
              size = 2) +
+  labs(x = "Treatment",
+       y = "Amount of ROS") +
   theme_classic()
 
 print(sample_plot)
