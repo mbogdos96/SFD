@@ -1,5 +1,6 @@
 library(dplyr)
 library(ggplot2)
+library(patchwork)
 
 # Simulate data with no effect and t test and record p val
 sims_fn <- function(no_sims,
